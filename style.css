@@ -1,13 +1,3 @@
-h1	{
-
-	font-weight: bold;
-
-	font-style: italic;
-
-
-
-	}
-
 body	{
 
 	background-color: black;
@@ -17,3 +7,12 @@ body	{
 	
 
 	}
+
+h1	{
+
+	font-weight: bold;
+
+	font-style: italic;
+
+	}
+
