@@ -1,0 +1,5 @@
+{ "username" : "wrobinson13"}
+	goal=[goal1={"goal": "Code video games", "confidence":9},
+	goal2={"goal":"Live a comfortable life", "confidence":10}, 
+	goal3={"goal":"Learn how to play the guitar", "confidence":7}]
+ 
