@@ -1,21 +1,15 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>wrobinson13</title>
-<link rel="stylesheet" type="text/css" href="style.css">
-	</head>
+---
+title: My Prject Diary
+layout: Main
+---
 
-<body>
-<h1>wrobinson13</h1>
-
-<p>This is a simple web page for <a href="https://msucsis.github.io/csc425/">CSC-425</a></p>
-
-<ul>
-	<li>Code video games</li>
-	<li>Live a comfortable life</li>
-	<li>Learn how to play the guitar</li>
-</ul>
-</body>
-</html>
-
-	
+<p>Dear Project Diary...<p>
+		{% for post in site.posts %}
+		<article>
+			<h2><a href="{{site.baseur1}}{{post.url}}">My Project Was Mean To Me Today</a></h2>
+			<p>
+			{{post.excerpt}}
+			
+			<p><a href="{{site.baseur1}}{{post.url}}"></a></p>
+		</article>
+		{% endfor %}
