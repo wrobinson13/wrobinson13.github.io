@@ -1,15 +1,10 @@
 ---
-title: My Prject Diary
-layout: Main
+title: wrobinson's project
+layout: main
 ---
 
-<p>Dear Project Diary...<p>
-		{% for post in site.posts %}
-		<article>
-			<h2><a href="{{site.baseur1}}{{post.url}}">My Project Was Mean To Me Today</a></h2>
-			<p>
-			{{post.excerpt}}
-			
-			<p><a href="{{site.baseur1}}{{post.url}}"></a></p>
-		</article>
-		{% endfor %}
+{% for post in site.posts %}
+  <h2><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></h2>
+  {{ post.excerpt }}
+  <a href="{{site.baseurl}}{{post.url}}">Read More</a>
+{% endfor %}
