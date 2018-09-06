@@ -3,10 +3,10 @@ title: wrobinson13's projects
 layout: main
 ---
 
-
+{% for project in site.projects %}
   <h2><a href= "{{site.baseurl}}{{project.url}}">{{project.course-number}}</a></h2>
   
-  <p>{{project.description}}</p>
+  <h3>{{project.description}}</h3>
   
   <img src ="{{site.baseur1}}{{project.image}}" alt="Video_Games"/>
      
@@ -17,4 +17,4 @@ layout: main
   </ul>
 
   <a href="{{site.baseurl}}{{project.url}}">Read More</a>
-
+{% endfor %}
