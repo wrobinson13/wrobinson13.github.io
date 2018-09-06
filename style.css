@@ -10,6 +10,8 @@ h1, h2	{
 
 	font-style: italic;
 
+	border-style: sold;
+	border-color: blue
 	}
 p	{
 	font-style: italic;
