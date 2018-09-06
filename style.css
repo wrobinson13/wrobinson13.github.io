@@ -4,10 +4,13 @@ body	{
 	background-color: pink;
 	}
 
-h1	{
+h1, h2	{
 
 	font-weight: bold;
 
 	font-style: italic;
 
+	}
+p	{
+	font-style: italic;
 	}
