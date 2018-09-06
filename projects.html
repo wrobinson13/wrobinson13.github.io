@@ -11,7 +11,7 @@ layout: main
   <img src ="{{site.baseur1}}{{project.image}}" alt="Video_Games"/>
 
   <ul>
-    {% for topic project.topics %}
+    {% for topic in project.topics %}
       <li>{{project.topic}}</li>
     {% endfor %} 
 </ul>
