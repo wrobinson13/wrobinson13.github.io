@@ -10,7 +10,6 @@ topics:
 
 layout: project
 ---
-gfjgdfdodkfdkgdglf
 
 ## Video Game Project
 
