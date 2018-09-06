@@ -9,12 +9,6 @@ layout: main
   <h3>{{project.description}}</h3>
   
   <img src ="{{site.baseur1}}{{project.image}}" alt="Video_Games"/>
-     
-  <ul>
-    {% for topic project.topics %}
-      <li>{{ topic }}</li>
-    {% endfor %} 
-  </ul>
 
   <a href="{{site.baseurl}}{{project.url}}">Read More</a>
 {% endfor %}
