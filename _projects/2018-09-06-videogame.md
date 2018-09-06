@@ -5,6 +5,8 @@ image: /image/vd.jpg
 topics:
  -Animation
  -Video games
+ -Gaming
+ -Computers
 
 layout: project
 ---
