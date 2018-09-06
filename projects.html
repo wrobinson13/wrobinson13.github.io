@@ -4,8 +4,12 @@ layout: main
 ---
 
 {% for project in site.project %}
-  <h2><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></h2>
-  {{ post.excerpt }}
+  <h2><a href="{{site.baseurl}}{{post.url}}">{{project.course-number}}</a></h2>
+  
+<p>{{project.description}}</p>
+
+<img src=
+
   <a href="{{site.baseurl}}{{post.url}}">Read More</a>
 {% endfor %}
 
