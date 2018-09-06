@@ -2,17 +2,20 @@ body	{
 	color: blue;
 
 	background-color: pink;
+	
+	font-style: oblique;
 	}
 
 h1, h2	{
 
 	font-weight: bold;
 
-	font-style: italic;
+	font-style: oblique;
 
-	border-style: sold;
+	border-bottom-style: sold;
 	border-color: blue
+	border-width: 15px	
 	}
 p	{
-	font-style: italic;
+	font-style: oblique;
 	}
