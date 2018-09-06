@@ -1,9 +1,11 @@
 body	{
-	color: gray;
+	color: blue;
 
 	background-color: pink;
 	
 	font-style: oblique;
+	
+	font-size: 25px
 	
 	}
 
